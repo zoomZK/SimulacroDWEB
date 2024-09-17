@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2E2F44;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #32334B;
+}
+
+.logo-info {
+    display: flex;
+    align-items: center;
+    color: #C4C4D4;
+}
+
+.cord {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenido-main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.texto-izquierda {
+    width: 50%;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.texto-izquierda h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.texto-derecha {
+    width: 55%;
+    column-count: 2;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.texto-derecha p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.galeria {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid-galeria img {
+    width: 100%;
+    height: auto;
+}
